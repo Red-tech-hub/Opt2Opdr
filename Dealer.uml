@@ -3,85 +3,82 @@
   <ID>JAVA</ID>
   <OriginalElement>com.company.Dealer</OriginalElement>
   <nodes>
-    <node x="28.40970259626374" y="449.16967719535455">com.company.Dealer</node>
-    <node x="245.28810968387396" y="446.4096950001488">com.company.AutoTest</node>
-    <node x="175.38306519488086" y="-48.97196491021526">com.company.Auto</node>
-    <node x="49.122139672394894" y="649.3898844166059">com.company.Koper</node>
-    <node x="422.5448183726754" y="162.0310427756563">com.company.Audi</node>
-    <node x="-72.39334107955932" y="196.6242170800074">com.company.Lamborghini</node>
-    <node x="175.3898097851549" y="198.7262252121924">com.company.BMW</node>
+    <node x="-59.75" y="439.0">com.company.Dealer</node>
+    <node x="147.875" y="439.0">com.company.AutoTest</node>
+    <node x="-2.7549999999999955" y="-49.0">com.company.Auto</node>
+    <node x="-72.75" y="610.0">com.company.Koper</node>
+    <node x="148.60500000000002" y="190.0">com.company.Audi</node>
+    <node x="355.605" y="190.0">com.company.Lamborghini</node>
+    <node x="-58.39499999999998" y="190.0">com.company.BMW</node>
   </nodes>
   <notes />
   <edges>
     <edge source="com.company.Lamborghini" target="com.company.Auto" relationship="GENERALIZATION">
-      <point x="3.4107955931972356E-4" y="-93.50021708000742" />
-      <point x="21.107" y="168.0" />
-      <point x="268.88300000000004" y="168.0" />
-      <point x="-6.519488084677505E-5" y="93.49996491021527" />
+      <point x="0.0" y="-93.5" />
+      <point x="449.105" y="169.0" />
+      <point x="242.10500000000002" y="169.0" />
+      <point x="242.10500000000002" y="159.0" />
+      <point x="137.495" y="159.0" />
+      <point x="46.75" y="93.5" />
     </edge>
     <edge source="com.company.Audi" target="com.company.Auto" relationship="GENERALIZATION">
-      <point x="-93.4998183726754" y="-4.2775656297067144E-5" />
-      <point x="379.89" y="255.531" />
-      <point x="379.89" y="168.0" />
-      <point x="268.88300000000004" y="168.0" />
-      <point x="-6.519488084677505E-5" y="93.49996491021527" />
+      <point x="0.0" y="-93.5" />
+      <point x="242.10500000000002" y="159.0" />
+      <point x="137.495" y="159.0" />
+      <point x="46.75" y="93.5" />
+    </edge>
+    <edge source="com.company.Dealer" target="com.company.BMW" relationship="DEPENDENCY">
+      <point x="-0.0" y="-60.5" />
+      <point x="-31.355000000000018" y="93.5" />
     </edge>
     <edge source="com.company.Dealer" target="com.company.Auto" relationship="TO_ONE">
-      <point x="-63.5" y="0.0" />
-      <point x="-89.89334107955932" y="509.66967719535455" />
-      <point x="-89.89334107955932" y="44.52803508978474" />
-      <point x="-93.5" y="0.0" />
-    </edge>
-    <edge source="com.company.Dealer" target="com.company.BMW" relationship="CREATE">
-      <point x="63.500297403736255" y="3.228046454637479E-4" />
-      <point x="201.0" y="509.67" />
-      <point x="201.0" y="501.0" />
-      <point x="227.788" y="501.0" />
-      <point x="-41.10180978515491" y="93.49977478780761" />
-    </edge>
-    <edge source="com.company.BMW" target="com.company.Auto" relationship="GENERALIZATION">
-      <point x="1.9021484507675268E-4" y="-93.50022521219239" />
-      <point x="268.89" y="168.0" />
-      <point x="268.88300000000004" y="168.0" />
-      <point x="-6.519488084677505E-5" y="93.49996491021527" />
+      <point x="-31.75" y="-60.5" />
+      <point x="-28.0" y="418.0" />
+      <point x="-68.89499999999998" y="418.0" />
+      <point x="-68.89499999999998" y="159.0" />
+      <point x="43.99500000000002" y="159.0" />
+      <point x="-46.75" y="93.5" />
     </edge>
     <edge source="com.company.AutoTest" target="com.company.BMW" relationship="CREATE">
-      <point x="-101.50010968387394" y="3.049998512096863E-4" />
-      <point x="201.0" y="506.91" />
-      <point x="201.0" y="501.0" />
-      <point x="227.788" y="501.0" />
-      <point x="-41.10180978515491" y="93.49977478780761" />
+      <point x="2.8421709430404007E-14" y="-60.5" />
+      <point x="249.375" y="398.0" />
+      <point x="81.85500000000002" y="398.0" />
+      <point x="46.75" y="93.5" />
+    </edge>
+    <edge source="com.company.BMW" target="com.company.Auto" relationship="GENERALIZATION">
+      <point x="0.0" y="-93.5" />
+      <point x="35.10500000000002" y="169.0" />
+      <point x="242.10500000000002" y="169.0" />
+      <point x="242.10500000000002" y="159.0" />
+      <point x="137.495" y="159.0" />
+      <point x="46.75" y="93.5" />
+    </edge>
+    <edge source="com.company.Dealer" target="com.company.Audi" relationship="DEPENDENCY">
+      <point x="31.75" y="-60.5" />
+      <point x="35.5" y="418.0" />
+      <point x="32.375000000000014" y="418.0" />
+      <point x="32.375000000000014" y="408.0" />
+      <point x="195.35500000000002" y="408.0" />
+      <point x="-46.75" y="93.5" />
     </edge>
     <edge source="com.company.AutoTest" target="com.company.Audi" relationship="CREATE">
-      <point x="-27.788109683873955" y="-60.49969500014882" />
-      <point x="319.0" y="402.0" />
-      <point x="516.0450000000001" y="402.0" />
-      <point x="1.8162732459359177E-4" y="93.49995722434372" />
-    </edge>
-    <edge source="com.company.Dealer" target="com.company.Lamborghini" relationship="CREATE">
-      <point x="2.97403736258417E-4" y="-60.499677195354565" />
-      <point x="91.91" y="417.0" />
-      <point x="21.107" y="417.0" />
-      <point x="3.4107955931972356E-4" y="93.49978291999258" />
+      <point x="2.8421709430404007E-14" y="-60.5" />
+      <point x="249.375" y="398.0" />
+      <point x="288.855" y="398.0" />
+      <point x="46.75" y="93.5" />
     </edge>
     <edge source="com.company.Koper" target="com.company.Dealer" relationship="CREATE">
-      <point x="-33.71243707613115" y="-38.5" />
+      <point x="0.0" y="-38.5" />
       <point x="0.0" y="60.5" />
     </edge>
-    <edge source="com.company.Dealer" target="com.company.Audi" relationship="CREATE">
-      <point x="-14.999702596263745" y="-60.499677195354565" />
-      <point x="76.91" y="402.0" />
-      <point x="516.0450000000001" y="402.0" />
-      <point x="1.8162732459359177E-4" y="93.49995722434372" />
-    </edge>
     <edge source="com.company.AutoTest" target="com.company.Lamborghini" relationship="CREATE">
-      <point x="-1.0968387394427737E-4" y="-60.49969500014882" />
-      <point x="346.788" y="417.0" />
-      <point x="21.107" y="417.0" />
-      <point x="3.4107955931972356E-4" y="93.49978291999258" />
+      <point x="2.8421709430404007E-14" y="-60.5" />
+      <point x="249.375" y="398.0" />
+      <point x="449.105" y="398.0" />
+      <point x="0.0" y="93.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="0.8000000000000002" showDependencies="true" x="283.0" y="354.12499999999994" />
+  <settings layout="Hierarchic" zoom="0.8765822784810127" showDependencies="true" x="245.0" y="329.0" />
   <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>
